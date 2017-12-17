@@ -1,0 +1,22 @@
+body {
+  background: #c30000;
+  color: #c1a86d;
+
+}
+
+.gift{
+  width: 140px;
+  height: 140px;
+  background: #0e350e;
+}
+.button{
+  width: 200px;
+  height: 140px;
+  border: none;
+
+}
+
+.christmas-pic {
+  width: 216px;
+  height: 300px;
+}
