@@ -9,7 +9,10 @@ body {
   height: 140px;
   background: #0e350e;
 }
+
 .button{
+  display: flex;
+  flex-wrap: wrap;
   width: 200px;
   height: 140px;
   border: none;
@@ -19,4 +22,51 @@ body {
 .christmas-pic {
   width: 216px;
   height: 300px;
+}
+
+.center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%
+}
+
+
+
+
+.place-holder{
+  display: none
+}
+
+@media (min-width: 750px){
+
+  .center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+
+  p.center{
+    box-sizing: border-box;
+    padding-left: 200px;
+    margin: 0;
+  }
+
+  .button{
+    width: 200px;
+    height: 140px;
+    border: none;
+
+  }
+
+  .empty-box{
+    width: 200px;
+    height: 140px;
+  }
+
+
+
+
 }
