@@ -1,8 +1,9 @@
 window.onload = function () {
   introSong ()
+  document.getElementById("rudolph").addEventListener('click', introSong)
 }
 
 function introSong(){
-  introSong = document.getElementById("intro-song")
-  introSong.play()
+  intro = document.getElementById("intro-song")
+  intro.play()
 }
