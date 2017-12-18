@@ -8,29 +8,34 @@ body {
   width: 140px;
   height: 140px;
   background: #0e350e;
+
 }
 
 .button{
   display: flex;
   flex-wrap: wrap;
-  width: 200px;
-  height: 140px;
+  width: 100px;
+  height: 50px;
   border: none;
 
 }
 
 .christmas-pic {
-  width: 216px;
-  height: 300px;
+  width: 120px;
+  height: 150px;
+  margin: 0 25%;
 }
 
 .center{
-  display: flex;
+/* display: flex;
   align-items: center;
-  justify-content: center;
-  max-width: 90%;
+  justify-content: center;*/
+  text-align: center;
+  max-width: 100%;
   padding-left: 10%;
+
 }
+
 
 
 
@@ -38,20 +43,14 @@ body {
 .place-holder{
   display: none
 }
-
+/* add media to better adjust for text and buttons */
 @media (min-width: 750px){
-
-  .center{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-  }
 
 
   p.center{
     box-sizing: border-box;
     padding-left: 200px;
+    padding-right: 200px;
     margin: 0;
   }
 
@@ -62,10 +61,11 @@ body {
 
   }
 
-  .empty-box{
-    width: 200px;
-    height: 140px;
-  }
+  .christmas-pic {
+    width: 216px;
+    height: 295px;
+
+
 
 
 
