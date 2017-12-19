@@ -1,19 +1,38 @@
 body {
   background: #c30000;
   color: #c1a86d;
+  font-family: 'Risque', cursive;
 
 }
 
 .gift{
-  width: 140px;
-  height: 140px;
   background: #0e350e;
 
 }
+ #gift-1{
+   position: absolute;
+   bottom: 15%;
+
+ }
+
+ #gift-2{
+   position: absolute;
+   bottom: 15%;
+   left: 40%;
+ }
+ #gift-3{
+   position: absolute;
+   bottom: 10%;
+
+ }
+
+ #gift-4{
+   position: absolute;
+   bottom: 10%;
+   left: 40%;
+ }
 
 .button{
-  display: flex;
-  flex-wrap: wrap;
   width: 100px;
   height: 50px;
   border: none;
@@ -36,8 +55,15 @@ h6 {
   width: 120px;
   height: 150px;
   margin: 0 25%;
+  position: relative;
+  bottom: 0%;
 }
-
+p.center{
+  box-sizing: border-box;
+  padding-bottom: 200px;
+  margin: 0;
+font-family: 'Fira Sans Condensed', sans-serif;
+}
 .center{
 /* display: flex;
   align-items: center;
@@ -95,11 +121,31 @@ h6 {
 /* add media to better adjust for text and buttons */
 @media (min-width: 750px){
 
+  #gift-1{
+    position: relative;
+
+  }
+
+  #gift-2{
+    position: relative;
+
+  }
+  #gift-3{
+    position: relative;
+
+  }
+
+  #gift-4{
+    position: relative;
+
+  }
+
 
   p.center{
     box-sizing: border-box;
     padding-left: 200px;
     padding-right: 200px;
+    padding-bottom: 30px;
     margin: 0;
   }
 
