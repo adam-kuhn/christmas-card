@@ -8,6 +8,12 @@ body {
 
 h1 {
   font-family: 'Risque', cursive;
+
+    margin: 0rem;
+    padding: 10% 20% 10% 0%;
+
+    width: 100%;
+
 }
 .invis{
   display: none;
@@ -51,9 +57,10 @@ h1 {
 #language {
   width: 150px;
   height: 50px;
-  background: #b0b0ff;
+  background: #c2a86c;
   margin: 5% 25%;
   text-align: center;
+    color: #232121;
 }
 
 h6 {
@@ -99,11 +106,12 @@ h5 {
 
 /* Modal Content Box */
 .modal-content {
-  background-color: #00dce6;
+  background-color: #c1a86d;
   margin: 15% auto; /* 15% from the top and centered */
-  padding: 20px;
+  padding:  20px;
   border: 1px solid #888;
   width: 80%;
+  color: #232121;
 }
 
 .modal-pic {
@@ -113,7 +121,7 @@ h5 {
 
 /* The Close Button */
 .close {
-  color: #aaa;
+  color: ##3a3535;
   float: right;
   font-size: 28px;
   font-weight: bold;
@@ -121,12 +129,20 @@ h5 {
 
 .close:hover,
 .close:focus {
-  color: black;
+  color: grey;
   text-decoration: none;
   cursor: pointer;
 }
 
+@media (min-width: 550px){
+h1 {
+  margin-left: 50%;
+}
+#language {
+margin-left: 35%;
+}
 
+}
 /* add media to better adjust for text and buttons */
 @media (min-width: 750px){
 
@@ -152,15 +168,16 @@ h5 {
   #language {
     width: 180px;
     height: 50px;
-    background: #b0b0ff;
+    background: #c2a86c;
+    color: #232121;
     margin: 2.5% 40%;
     text-align: center;
   }
 
   p.center{
     box-sizing: border-box;
-    padding-left: 200px;
-    padding-right: 200px;
+  /*  padding-left: 200px;
+    padding-right: 200px; */
     padding-bottom: 30px;
     margin: 0;
   }

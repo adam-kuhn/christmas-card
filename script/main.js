@@ -1,6 +1,6 @@
 window.onload = function () {
-/*  introSong ()
-  document.getElementById("rudolph").addEventListener('click', introSong)*/
+introSong ()
+  document.getElementById("rudolph").addEventListener('click', introSong)
 
   //Get modal
   var modal = document.getElementById("giftModal-1");
