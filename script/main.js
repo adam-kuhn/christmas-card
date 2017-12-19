@@ -29,6 +29,9 @@ window.onload = function () {
     }
   }
 
+  //get button to change language
+  document.getElementById("language").addEventListener('click', changeLanguage)
+
 
 }
 
@@ -37,4 +40,15 @@ window.onload = function () {
 function introSong(){
   intro = document.getElementById("intro-song")
   intro.play()
+}
+
+//function to change language
+function changeLanguage(){
+let language = document.getElementsByClassName("language")
+for (i=0; i<language.length; i++){
+  language[i].classList.toggle('invis')
+}
+
+
+//document.getElementsByClassName("english").classList.toggle('invis')
 }

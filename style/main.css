@@ -9,6 +9,10 @@ body {
 h1 {
   font-family: 'Risque', cursive;
 }
+.invis{
+  display: none;
+
+}
 
 .gift{
   background: #0e350e;
