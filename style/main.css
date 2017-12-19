@@ -76,9 +76,7 @@ h5 {
   padding-bottom: 150px;
 }
 .center{
-/* display: flex;
-  align-items: center;
-  justify-content: center;*/
+
   text-align: center;
   max-width: 100%;
 
@@ -172,7 +170,7 @@ h5 {
 
   h1 {
     margin: 0rem;
-    padding: 10%;
+    padding: 10% 20% 10% 0%;
     width: 100%;
   }
   .button{
