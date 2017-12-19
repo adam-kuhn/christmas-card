@@ -20,8 +20,16 @@ body {
 
 }
 
-.flag {
-  
+#language {
+  width: 180px;
+  height: 50px;
+  background: #b0b0ff;
+  margin: 0 40%;
+  text-align: center;
+}
+
+h6 {
+  margin: 1.5rem 0rem;
 }
 
 .christmas-pic {
