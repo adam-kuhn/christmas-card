@@ -1,8 +1,13 @@
 body {
   background: #c30000;
   color: #c1a86d;
-  font-family: 'Risque', cursive;
 
+  font-family: 'Fira Sans Condensed', sans-serif;
+
+}
+
+h1 {
+  font-family: 'Risque', cursive;
 }
 
 .gift{
@@ -18,7 +23,7 @@ body {
  #gift-2{
    position: absolute;
    bottom: 15%;
-   left: 40%;
+   right: 10%;
  }
  #gift-3{
    position: absolute;
@@ -29,7 +34,7 @@ body {
  #gift-4{
    position: absolute;
    bottom: 10%;
-   left: 40%;
+   right: 10%;
  }
 
 .button{
@@ -40,10 +45,10 @@ body {
 }
 
 #language {
-  width: 180px;
+  width: 150px;
   height: 50px;
   background: #b0b0ff;
-  margin: 0 40%;
+  margin: 5% 25%;
   text-align: center;
 }
 
@@ -60,9 +65,11 @@ h6 {
 }
 p.center{
   box-sizing: border-box;
-  padding-bottom: 200px;
+  padding-bottom: 30px;
   margin: 0;
-font-family: 'Fira Sans Condensed', sans-serif;
+}
+h5 {
+  padding-bottom: 150px;
 }
 .center{
 /* display: flex;
@@ -70,7 +77,7 @@ font-family: 'Fira Sans Condensed', sans-serif;
   justify-content: center;*/
   text-align: center;
   max-width: 100%;
-  padding-left: 10%;
+
 
 }
 
@@ -140,6 +147,13 @@ font-family: 'Fira Sans Condensed', sans-serif;
 
   }
 
+  #language {
+    width: 180px;
+    height: 50px;
+    background: #b0b0ff;
+    margin: 2.5% 40%;
+    text-align: center;
+  }
 
   p.center{
     box-sizing: border-box;
@@ -148,7 +162,15 @@ font-family: 'Fira Sans Condensed', sans-serif;
     padding-bottom: 30px;
     margin: 0;
   }
+  h5 {
+    padding-bottom: 20px;
+  }
 
+  h1 {
+    margin: 0rem;
+    padding: 10%;
+    width: 100%;
+  }
   .button{
     width: 200px;
     height: 140px;
