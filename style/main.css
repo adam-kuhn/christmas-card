@@ -55,10 +55,11 @@ h1 {
 }
 
 #language {
-  width: 150px;
+  width: 176.88px;
   height: 50px;
   background: #c2a86c;
   margin: 5% 25%;
+
   text-align: center;
     color: #232121;
 }
@@ -80,7 +81,7 @@ p.center{
   margin: 0;
 }
 h5 {
-  padding-bottom: 150px;
+  margin-bottom: 225px;
 }
 .center{
 
@@ -180,7 +181,7 @@ margin-left: 35%;
     margin: 0;
   }
   h5 {
-    padding-bottom: 20px;
+    margin-bottom: 30px;
     font-weight: bold;
   }
 
