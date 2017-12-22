@@ -25,6 +25,9 @@ introSong ()
   gift1.onclick = function(){
     modal1.style.display = "block"
   }
+  gitf1.onTouchStart = function(){
+    modal1.style.display = "block"
+  }
   gift2.onclick = function(){
     modal2.style.display = "block"
   }
